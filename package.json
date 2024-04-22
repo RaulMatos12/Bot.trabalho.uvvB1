@@ -1,0 +1,21 @@
+{
+  "name": "bot.js1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.6",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1"
+  },
+  "description": "-Use \"npm i\" no terminal para instalar dependencias, apos terminar de instalar use \"node bot.js\" para iniciar o bot -Para se conectar ao bot use 'uvv_raul_bot' no telegram  -Horário de funcionamento é entre 9 as 18 enviara um link , fora desse horário manda seu email para podemos mandar informações  -O \"email\" vai ser salvo em um banco de dados SQLlite com auxilio do Prisma(infelizmente não conseguir salvar o email, então enviei o arquivo \"bot.js\" sem o prisma para funcionar)."
+}
